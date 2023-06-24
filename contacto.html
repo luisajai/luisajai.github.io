@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="https://img.icons8.com/?size=512&id=c28VqN9EhOpf&format=png">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: gray;
+    font-weight: 700;
+}
+.container-form a i{
+    color: rgb(112, 112, 112);;
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #541a75;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(112, 112, 112);
+    color: rgba(53, 48, 48, 0.877);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: rgb(112, 112, 112);
+}
+
+
+
+h2 {
+    color: gray;
+}
+
+p {
+    color: rgba(46, 38, 38, 0.801);
+}
+    body{
+       
+        background-size: cover;
+        background-position: fixed;
+        background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    }
+    h1{
+        font-size: 50px;
+        color:#E1AEFF ;
+    }
+    
+</style>
+<body>
+    <ul class="menu">
+
+       <li><a href="inicio.html">Inicio</a></li>
+       <li><a href="productos.html">Productos nuevos</a></li>
+       <li><a href="ofertas.html">Ofertas de temporadas</a></li>
+       <li><a href="contacto.html">Comentarios</a></li>
+        
+    </ul>
+    <!--Icon-Font-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contáctanos</h2>
+            <p>Queremos saber en que lo podemos ayudar</p>
+            <a href="#"><i class="fa fa-phone"></i> 123-456-789</a>
+            <a href="#"><i class="fa fa-envelope"></i> email@tudominio.com </a>
+            <a href="#"><i class="fa fa-map-marked"></i> Ciudad, Pais</a>
+        </div>
+        <form action="#" autocomplete="off">
+            <input type="text" name="nombre" placeholder="Tu Nombre" class="campo" required>
+            <input type="emal" name="email" placeholder="Tu Email" class="campo" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+            <input type="submit" name="enviar" value="Enviar Mensaje" class="btnEnviar" onclick="alert('Gracias por tu comentario!!')">
+           
+        </form>
+    </div>
+</body>
+</html>
+    
+    
+</body>
+</html>

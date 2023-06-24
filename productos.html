@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        
+        td {
+           
+          border: 3px solid black;
+          text-align: center;
+        }
+        td:hover{
+            box-shadow: 5px 5px 15px gray;
+        }
+        table{
+            width: 75%;
+            background-color: bisque;
+        }
+ 
+        </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos nuevos</title>
+    <script src="logica.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="https://img.icons8.com/?size=512&id=c28VqN9EhOpf&format=png">
+</head>
+<style>
+    body{
+        background-color: rgba(255, 212, 176, 0.26);
+        background-size: cover;
+        background-position: center;
+    }
+    h1{
+        font-size: 50px;
+        color:#E1AEFF ;
+    }
+    total{
+        text-decoration: blink;
+    }
+
+    
+</style>
+<body>
+    
+    <ul class="menu">
+       <li><a href="inicio.html">Inicio</a></li>
+       <li><a href="productos.html">Productos nuevos</a></li>
+       <li><a href="ofertas.html">Ofertas de temporada</a></li>
+       <li><a href="contacto.html">Comentarios</a></li>
+        
+    </ul>
+    <h1>Productos nuevos</h1>
+    <hr>
+
+    <table style="width: 100%">
+
+        
+     <td><img src="https://i.pinimg.com/564x/ed/56/90/ed569046c62b71edc9099b6ebb2ebf0c.jpg" alt="" >
+       
+
+        <h2>Colonia Hello kity</h2>
+        <p>Combinación original de leche de coco y vainilla coco</p>
+        <p>el precio es de Q.150.00</p>
+        <label for="">Ingrese la cantidad que deseaba</label><br>
+        <input id="si1" type="text"><br>
+    
+        <label for="">su subtotal es de </label>
+        <label id="m1" for=""></label>
+        <button onclick="ventas()">mostrar</button></td>
+
+
+     <td> <img src="https://i.pinimg.com/564x/7a/53/b7/7a53b7aaf910774bbd5ced4e8761632c.jpg" alt="">
+        <h2>Peluches disfrazados</h2>
+        <p>Tierno peluche del personaje Kuromi disfrazado de un osito
+        </p>
+        <label for="">El precio es de Q.200.00</label><br>
+        <label for="">Ingrese la cantidad que deseaba</label><br>
+        <input id="si2" type="text"><br>
+    
+        <label for="">su subtotal es de </label>
+        <label id="m2" for=""></label>
+        <button onclick="ventas2()">mostrar</button></td>
+        <td>
+            <img src="https://cdn.shopify.com/s/files/1/0579/1685/0328/products/Sanrio_kitty.jpg?v=1680027084&width=1100" alt="">
+            <h2>Estuche de felpa</h2>
+            <p>Lindo estuche de felpa del personaje Hello Kity para tus utiles</p>
+            <label for="">El precio es de Q.135.00</label><br>
+            <label for="">Ingrese la cantidad que deseaba</label><br>
+            <input id="si6" type="text"><br>
+        
+            <label for="">su subtotal es de </label>
+            <label id="m6" for=""></label>
+            <button onclick="ventas6()">mostrar</button>
+            
+        </td>
+        
+    </table>
+
+
+
+    <table style="width: 100%">
+
+     <td>            <img src="https://i.pinimg.com/564x/e1/60/56/e16056f61d261a2e7039c40d9eb34168.jpg" alt="">
+        <h2>Teteras</h2>
+        <p>Ahora puedes jugar al té con tus personajes favoritos</p>
+        <p>El precio es de Q.275.00</p>
+        <label for="">Ingrese la cantidad que deseaba</label><br>
+        <input id="si3" type="text"><br>
+    
+        <label for="">su subtotal es de </label>
+        <label id="m3" for=""></label>
+        <button onclick="ventas3()">mostrar</button></td>
+
+
+     <td>             <img src="https://i.pinimg.com/564x/59/98/a2/5998a21f2b8afff9ad415ba945afb1ca.jpg" alt="">
+        <h2>Llaverito</h2>
+        <p>Lindo llaveros para llevar a tu personajes favoritos contigo.</p>
+        <label for="">El precio es de Q175.00</label><br>
+        <label for="">Ingrese la cantidad que deseaba</label><br>
+        <input id="si4" type="text"><br>
+    
+        <label for="">su subtotal es de </label>
+        <label id="m4" for=""></label>
+        <button onclick="ventas4()">mostrar</button></td>
+   
+
+        <td>             <img src="https://i.pinimg.com/564x/05/1a/cb/051acb03c10c88242c241a49c258cff8.jpg" alt="">
+            <h2>Ganchos</h2>
+            <p>Hermosos ganchos de los personajes; para decorar tu cabello.</p>
+            <label for="">El precio es de Q175.00</label><br>
+            <label for="">Ingrese la cantidad que deseaba</label><br>
+            <input id="si5" type="text"><br>
+        
+            <label for="">su subtotal es de </label>
+            <label id="m5" for=""></label>
+            <button onclick="ventas5()">mostrar</button></td>
+
+       </td>
+
+
+
+        
+    </table>
+    <div id="total">
+        <label for="">Su total es de </label><br>
+        <input type="text" id="nota"><br>
+   
+        <button onclick="ventas7()">mostrar</button></td>
+    
+
+    </div>
+
+
+    
+
+
+    
+ </body>    
+    
+</html>

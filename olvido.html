@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reestablecer contraseña</title>
+</head>
+<style>
+    form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        width: 450px;
+        height: 450px;
+        background: rgba(158, 23, 23, 0.562);
+        border-radius: 10px;
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+    form h1{
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom:1px solid rgb(233, 117, 175);
+    }
+    body{
+        background-image : url('https://w.forfun.com/fetch/4f/4f449b1461062903d6b0e55a4827957d.jpeg?w=1000&r=0.5625') ;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+    form #nuvusuario{
+
+        position: relative;
+        border-bottom: 2px solid #93ce8c6c;
+        margin: 30px;
+
+    }
+    form #nuvcontra{
+
+        position: relative;
+        border-bottom: 2px solid #93ce8c6c;
+        margin: 30px;
+
+    }
+    input{
+
+        width: 100%;
+        padding: 5px;
+        height: 40px;
+        font-size: 16px;
+        background: none;
+        border: none;
+        outline: none;
+
+    }
+ 
+    #l label{
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        color: rgb(5, 5, 5);
+        transform: translateY(-50%);
+        font-size: 16px;
+        pointer-events: none;
+        transition: .5s;
+    }
+    #j label{
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        color: rgb(5, 5, 5);
+        transform: translateY(-50%);
+        font-size: 16px;
+        pointer-events: none;
+        transition: .5s;
+    }
+    #button{
+     width: 100%;
+     height: 50px;
+     border: 1px solid;
+     background: rgb(189, 111, 137);
+     border-radius: 25px;
+     font-size: 18px;
+     color: whitesmoke;
+     cursor: pointer;
+     outline: none;
+    }
+    #button:hover{
+     border-color: rgb(216, 143, 155);
+     transition: .5s;
+    }
+    .username span::before{
+    content:'';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: whitesmoke;
+
+}
+
+
+</style>
+
+<body>
+    <form  id="formulario" action="">
+        <h1>Reestablecer contraseña</h1>
+        <div class="username" >
+
+       
+         <label for="" id="l">Ingrese su usuario</label><br>
+         <input type="text" name="" id="nuvusuario"><br> 
+        </div>
+        <div class="contra" >
+
+        
+          <label id="j" for="">Ingrese la nueva contraseña</label><br>
+          <input type="text" name="" id="nuvcontra"><br>
+        </div>
+        <input type="button" id="button" value="Reestablecer" onclick="alert('Contraseña reestablecida correctamente')">
+    </form>
+
+</body>
+</html>

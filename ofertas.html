@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas</title>
+    <script src="logica.js"></script>
+    <link rel="icon" href="https://img.icons8.com/?size=512&id=c28VqN9EhOpf&format=png">
+    
+    <style>
+        body{
+            background-color: rgba(255, 212, 176, 0.26);
+            background-size: cover;
+            background-position: center;
+        }
+        h1{
+            font-size: 50px;
+            color:#E1AEFF ;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="https://img.icons8.com/?size=512&id=c28VqN9EhOpf&format=png">
+</head>
+<style>
+    
+    body{
+        background-color: rgba(255, 212, 176, 0.26);
+        background-size: cover;
+        background-position: center;
+    }
+    h1{
+        font-size: 50px;
+        color:#E1AEFF ;
+    }
+    td {
+           
+        border: 3px solid black;
+        text-align: center;
+    }
+    td:hover{
+        box-shadow: 5px 5px 15px gray;
+    }
+    table{
+         width: 75%;
+            background-color: bisque;
+     }
+  
+     </style>
+    
+    
+</style>
+
+<body>
+    <ul class="menu">
+       <li><a href="inicio.html">Inicio</a></li>
+       <li><a href="productos.html">Productos nuevos</a></li>
+       <li><a href="ofertas.html">Ofertas de temporada</a></li>
+       <li><a href="contacto.html">Comentarios</a></li>
+        
+    </ul>
+    <h1>Ofertas de temporada</h1>
+    <hr>
+    
+    <table style="width: 100%">
+            <td>
+                <img src="https://i.pinimg.com/564x/6b/9f/04/6b9f04c2d6755944391d7f282a514ed6.jpg" alt="" >
+                <h2>Piercing Hello Kitty</h2>
+                <p>Piercing de Hello kitty para perforación en el ombligo
+              </p>
+             <p  style="text-decoration: line-through;" >el precio anterios era de Q.100.00</p>
+             <p>ahora a tan solo Q.50.00</p>
+             <label for="">Ingrese la cantidad que deseaba</label><br>
+             <input id="cantidad123" type="text"><br>
+
+             <label for="">su subtotal</label>
+             <label id="mensajeee" for=""></label>
+             <button onclick="prueba()" >mostrar</button>
+
+            </td>
+
+        <td>
+            <img src="https://i.pinimg.com/564x/c2/28/37/c228371c24eeb81bdcd9bb6b692afc12.jpg" alt="" >
+            <h2>Casas miniaturas</h2>
+            <p>Casitas miniaturas de tus personajes favoritas</p>
+            <p style="text-decoration: line-through;" >el precio anterior era de Q300</p>
+            <p>ahora a tan solo Q.275.00</p>
+            <label for="">Ingrese la cantidad que deseaba</label><br>
+            <input id="cantidad456" type="text"><br>
+
+            <label for="">su subtotal</label>
+            <label id="mensajeee1" for=""></label>
+            <button onclick="prueba1()" >mostrar</button>
+        </td>
+        <td>
+            <img src="https://i.pinimg.com/564x/1b/a1/15/1ba11568b308a6286bcb31935f461ea4.jpg" alt="" >
+            <h2>Ramen de los personajes</h2>
+            <p>Diferentes ramenes con sabores respectivos de los personajes</p>
+            <p style="text-decoration: line-through;" >el precio anterior era de Q35</p>
+            <p>ahora a tan solo Q.20.00</p>
+            <label for="">Ingrese la cantidad que deseaba</label><br>
+            <input id="cantidad0" type="text"><br>
+
+            <label for="">su subtotal</label>
+            <label id="mensajeramen" for=""></label>
+            <button onclick="prueba2()" >mostrar</button>
+        </td>
+        <table style="width: 100%" >
+            <td>
+                <img src="https://i.pinimg.com/564x/fd/92/0c/fd920c2ab3ac4a5ec137e4cb95b62102.jpg" alt="" >
+                <h2>Zapatos de Sanrio</h2>
+                <p>Zapatos de tus personajes favoritos en talla 36</p>
+                <p style="text-decoration: line-through;">el precio anterior era de Q.700.00</p>
+                <p>ahora a tan solo Q.500.00</p>
+                <label for="">Ingrese la cantidad que deseaba</label><br>
+                <input id="cantida" type="text"><br>
+    
+                <label for="">su subtotal</label>
+                <label id="mensajee" for=""></label>
+                <button onclick="prueb()" >mostrar</button>
+                
+            </td>
+            <td>
+                <img src="https://i.pinimg.com/564x/9c/5a/60/9c5a60763dcde40c3902889f780fbe8f.jpg" alt="" >
+                <h2>Guitarra de Hello kitty</h2>
+                <p>Guitarra para acompañar tu música</p>
+                <p style="text-decoration: line-through;">el precio anterior era de Q.2,000.00</p>
+                <p>ahora a tan solo Q.1205.00</p>
+                <label for="">Ingrese la cantidad que deseaba</label><br>
+                <input id="canti" type="text"><br>
+    
+                <label for="">su subtotal</label>
+                <label id="mensaj" for=""></label>
+                <button onclick="pru()" >mostrar</button>
+
+            </td>
+            <td>
+                <img src="https://i.pinimg.com/564x/2e/22/91/2e2291b9ccd127f06340395d29d5cb4a.jpg" alt="" >
+                <h2>Skateboards</h2>
+                <p>Stakeboards para patinar junto a sanrio</p>
+                <p style="text-decoration: line-through;">el precio anterior era de Q.375.00</p>
+                <p>ahora a tan solo Q.200.00</p>
+                <label for="">Ingrese la cantidad que deseaba</label><br>
+                <input id="cantid" type="text"><br>
+    
+                <label for="">su subtotal</label>
+                <label id="mensaje" for=""></label>
+                <button onclick="prue()" >mostrar</button>
+                
+            </td>
+            
+
+        </table>
+        
+    </table>
+    <div >
+        <label for="">Su total es de </label><br>
+        <input type="text" id="total"><br>
+   
+        <button onclick="pr()">mostrar</button></td>
+    
+
+    </div>
+
+</body>   
+   
+        
